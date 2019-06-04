@@ -3,16 +3,17 @@
 - How to use it in project?
 1. Add the repository to your build file:
 allprojects {
-		repositories {
-			...
-			maven { url 'https://jitpack.io' }
-		}
+	repositories {
+	...
+	maven { url 'https://jitpack.io' }
+	}
 }
 
 2. Add the dependency:
-dependencies {
-	        implementation 'com.github.youvita:FlexibleToolBar:1.0.0'
-	}
+dependencies 
+{
+	implementation 'com.github.youvita:flexible-toolbar:1.0.0'
+}
   
 3. Add to xml layout:
 <com.flexible.toolbar.library.FlexibleToolBar
